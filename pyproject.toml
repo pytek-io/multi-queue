@@ -6,7 +6,7 @@ authors = [
     { name = "fdv1", email = "francois@pytek.io" },
 ]
 readme = "README.md"
-packages = [{include = "multi_queue"}]
+packages = [{include = "src"}]
 
 [build-system]
 requires = ["hatchling", "hatch-vcs"]
